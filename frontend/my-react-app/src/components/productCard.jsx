@@ -20,7 +20,7 @@ const ProductCard = ({ product, onEdit, addToCart }) => {
       {editMode ? (
         <>
           <input name="name" value={form.name} onChange={handleChange} />
-          <input name="name" type="number" value={form.price} onChange={handleChange} />
+          <input name="price" type="number" value={form.price} onChange={handleChange} />
           <textarea name="description" value={form.description} onChange={handleChange} />
           <button onClick={handleSave}>Save</button>
         </>   

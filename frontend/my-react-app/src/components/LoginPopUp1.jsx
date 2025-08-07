@@ -5,6 +5,8 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+const API_BASE_URL = 'https://ecommerce-f8oj.onrender.com'; 
+
 const LoginPopUp1 = ({ setShowLogin }) => {
   const [currSate, setCurrState] = useState("Sign Up");
   const [formData, setFormData] = useState({ username: '', email: '', password: '' });
@@ -13,7 +15,10 @@ const LoginPopUp1 = ({ setShowLogin }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const url = currSate === "Sign Up" ? "http://localhost:4000/api/users/signUp" : "http://localhost:4000/api/users/login";
+      const url = currSate === "Sign Up"
+      ? `${API_BASE_URL}/api/users/signUp`
+      : `${API_BASE_URL}/api/users/login`;
+
 
     try {
       const { data } = await axios.post(url, formData);
