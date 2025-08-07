@@ -11,7 +11,7 @@ const app = express()
 
 // ✅ CORS (Fixed)
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://ecommerce-7t36.vercel.app'], // no slash
+    origin: ['http://localhost:5173', 'https://ecommerce-4vew.vercel.app'], 
     credentials: true
 }))
 
