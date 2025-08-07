@@ -3,41 +3,35 @@ const dotenv = require('dotenv').config()
 const connectDB = require('./config/connectDB')
 const cors = require('cors')
 
-//MongoDB
+// MongoDB
 connectDB()
 
-//Express app
-const app = express();
+// Express app
+const app = express()
 
-//CORS
+// ✅ CORS (Fixed)
 app.use(cors({
-    origin: ['http://localhost:5173','https://ecommerce-7t36.vercel.app/'], 
+    origin: ['http://localhost:5173', 'https://ecommerce-7t36.vercel.app'], // no slash
     credentials: true
-}));
+}))
 
-//Body-Parser
+// Body parser
 app.use(express.json())
 
-//Routes
-app.use('/api/products',require('./routes/productRoute'))
-app.use('/api/users',require('./routes/userRoutes'))
+// Routes
+app.use('/api/products', require('./routes/productRoute'))
+app.use('/api/users', require('./routes/userRoutes'))
 
-//Port Declaration
-const port  = process.env.PORT || 4001
-
-
-//Error Handling Middleware
+// Error handler
 app.use((err, req, res, next) => {
     res.status(err.status || 500).json({
         success: false,
         message: err.message || "Something Went Wrong!"
-    });
-});
-
-
-
-//Server running
-app.listen(port,()=>{
-    console.log(`The server is running on port ${port}`)
+    })
 })
 
+// Server
+const port = process.env.PORT || 4001
+app.listen(port, () => {
+    console.log(`The server is running on port ${port}`)
+})
