@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Laptop",
+    "price": 799,
+    "description": "High-performance laptop with Intel i7 processor and 16GB RAM.",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "name": "Smartphone",
+    "price": 599,
+    "description": "Latest model smartphone with AMOLED display and 128GB storage.",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "price": 129,
+    "description": "Portable speaker with deep bass and 12-hour battery life.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+  },
+  {
+    "name": "Gaming Mouse",
+    "price": 49,
+    "description": "Ergonomic gaming mouse with customizable DPI settings.",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "name": "Wireless Keyboard",
+    "price": 69,
+    "description": "Slim wireless keyboard with quiet keys and long battery life.",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+  },
+  {
+    "name": "Monitor",
+    "price": 199,
+    "description": "24-inch Full HD monitor with IPS panel and HDMI support.",
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca"
+  },
+  {
+    "name": "External Hard Drive",
+    "price": 89,
+    "description": "1TB external hard drive with USB 3.0 support.",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"
+  },
+  {
+    "name": "Smart Watch",
+    "price": 149,
+    "description": "Fitness tracking smartwatch with heart-rate monitor.",
+    "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
+  },
+  {
+    "name": "Webcam",
+    "price": 79,
+    "description": "1080p HD webcam with built-in microphone.",
+    "image": "https://images.unsplash.com/photo-1606813902779-0448c7b13f5e"
+  },
+  {
+    "name": "Tablet",
+    "price": 349,
+    "description": "10-inch tablet with stylus support and 64GB storage.",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "name": "Wireless Earbuds",
+    "price": 99,
+    "description": "Noise-cancelling wireless earbuds with fast charging.",
+    "image": "https://images.unsplash.com/photo-1519666213635-f585a3ba9b6b"
+  },
+  {
+    "name": "LED Desk Lamp",
+    "price": 39,
+    "description": "Adjustable LED desk lamp with touch controls and USB charging port.",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "name": "Router",
+    "price": 129,
+    "description": "Dual-band Wi-Fi router with high-speed internet connectivity.",
+    "image": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68"
+  },
+  {
+    "name": "Wireless Charger",
+    "price": 35,
+    "description": "Fast wireless charger compatible with most smartphones.",
+    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2"
+  },
+  {
+    "name": "Action Camera",
+    "price": 199,
+    "description": "Waterproof action camera with 4K video recording and wide-angle lens.",
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b"
+  }
+]

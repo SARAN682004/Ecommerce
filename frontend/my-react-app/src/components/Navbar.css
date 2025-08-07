@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+.navbar {
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar .search-box {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .search-box input {
+  padding: 6px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.navbar .search-box button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.navbar .auth-cart {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .auth-cart span {
+  margin-right: 20px;
+}
+
+.navbar .auth-cart button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
