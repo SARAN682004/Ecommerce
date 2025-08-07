@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const LoginPopUp = ({ setShowLogin }) => {
+const LoginPopUp1 = ({ setShowLogin }) => {
   const [currSate, setCurrState] = useState("Sign Up");
   const [formData, setFormData] = useState({ username: '', email: '', password: '' });
   const navigate = useNavigate();
@@ -91,4 +91,4 @@ const LoginPopUp = ({ setShowLogin }) => {
   );
 };
 
-export default LoginPopUp;
+export default LoginPopUp1;

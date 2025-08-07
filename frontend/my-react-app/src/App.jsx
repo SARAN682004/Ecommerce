@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import LoginPopUp1 from './components/LoginPopUp1';
 import Home from './pages/Home';
-import LoginPopUp from './components/loginPopUp';
+
 
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
 
   return (
     <div>
-      {showLogin && <LoginPopUp setShowLogin={setShowLogin} />}
+      {showLogin && <LoginPopUp1 setShowLogin={setShowLogin} />}
       <Home setShowLogin={setShowLogin} />
       <ToastContainer position="top-right" autoClose={3000} />
     </div>
