@@ -11,7 +11,7 @@ const app = express()
 
 // ✅ CORS (Fixed)
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://ecommerce-4vew.vercel.app'], 
+    origin: ['http://localhost:5173', 'https://ecommerce-dusky-six.vercel.app'], 
     credentials: true
 }))
 
