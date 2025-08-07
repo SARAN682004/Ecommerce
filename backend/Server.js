@@ -11,7 +11,7 @@ const app = express();
 
 //CORS
 app.use(cors({
-    origin: 'http://localhost:5173', 
+    origin: ['http://localhost:5173','https://ecommerce-7t36.vercel.app/'], 
     credentials: true
 }));
 
