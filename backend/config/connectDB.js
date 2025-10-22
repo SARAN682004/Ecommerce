@@ -3,12 +3,12 @@ const mongoose = require('mongoose')
 
 const connectDB = async()=>{
     try{
-          await mongoose.connect("mongodb+srv://ksaran0006:mern1@cluster0.pipthia.mongodb.net/Mern1")
+          await mongoose.connect("mongodb+srv://ecommerce:ecom123@cluster0.zqa5mza.mongodb.net/Ecommerce_App")
           console.log("Database Connected")
 
     }catch(err)
     {
-        next()
+        console.error(err)
     }
 }
 
